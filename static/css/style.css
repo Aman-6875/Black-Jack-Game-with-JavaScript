@@ -1,0 +1,48 @@
+.container-1 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-blackJack-row-1,
+.flex-blackJack-row-2,
+.flex-blackJack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackJack-row-1,
+.flex-blackJack-row-2,
+.flex-blackJack-row-3,
+.container-1 {
+    background-image: linear-gradient(rgba(7, 7, 163, 0.822), rgba(109, 6, 112, 0.856)), url("../../media/examples/lizard.png");
+    color: cornsilk;
+}
+
+.flex-blackJack-row-1 div {
+    border: 1px solid cornsilk;
+    padding: 10px;
+    flex: 1;
+    height: 390px;
+    padding: 10px;
+}
+
+.flex-blackJack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackJack-row-2 div {
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid cornsilk;
+}
